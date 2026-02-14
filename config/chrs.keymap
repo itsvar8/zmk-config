@@ -12,7 +12,7 @@
                 &kp D &kp E &kp F &kp G
                 &kp H &kp I &kp J
                 &kp K &kp L &kp M &kp N
-                &kp O &kp P &bootloader
+                &kp O &studio_unlock &bootloader
             >;
             sensor-bindings = <&inc_dec_kp A B>;
         };

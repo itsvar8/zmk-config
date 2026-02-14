@@ -16,9 +16,9 @@
     };
 };
 
-//&physical_layout_chrs {
-//    transform = <&matrix_transform0>;
-//};
+&physical_layout_chrs {
+    transform = <&matrix_transform0>;
+};
 
 // Encoders for all parts of the keyboard.
 // If the encoder(s) are not behaving as expected,

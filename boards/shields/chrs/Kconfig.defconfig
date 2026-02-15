@@ -5,3 +5,16 @@ config ZMK_KEYBOARD_NAME
     default "chrs"
 
 endif
+
+# ---------------------
+# Kconfig for shield "chrs" with board "nice_nano_v2"
+# ---------------------
+if BOARD_NICE_NANO_V2 && SHIELD_CHRS
+
+config SPI
+    default y
+
+config WS2812_STRIP
+    default y
+
+endif

@@ -17,7 +17,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         layer_1 {
-            display-name = "Base";
+            display-name = "Layer 1";
             bindings = <
                 &kp A &kp B &kp C
                 &kp D &kp E &kp F &kp G
@@ -28,7 +28,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         layer_2 {
-            display-name = "Base";
+            display-name = "Layer 2";
             bindings = <
                 &kp A &kp B &kp C
                 &kp D &kp E &kp F &kp G
@@ -39,7 +39,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         layer_3 {
-            display-name = "Base";
+            display-name = "Layer 3";
             bindings = <
                 &kp A &kp B &kp C
                 &kp D &kp E &kp F &kp G

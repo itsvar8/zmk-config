@@ -12,9 +12,43 @@
                 &kp D &kp E &kp F &kp G
                 &kp H &kp I &kp J
                 &kp K &kp L &kp M &kp N
-                &kp O &studio_unlock &bootloader
+                &mo1  &mo2  &mo3
             >;
-            sensor-bindings = <&inc_dec_kp A B>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
+        layer_1 {
+            display-name = "Base";
+            bindings = <
+                &kp A &kp B &kp C
+                &kp D &kp E &kp F &kp G
+                &kp H &kp I &kp J
+                &kp K &kp L &kp M &kp N
+                &trans &trans &trans
+            >;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+        };
+        layer_2 {
+            display-name = "Base";
+            bindings = <
+                &kp A &kp B &kp C
+                &kp D &kp E &kp F &kp G
+                &kp H &kp I &kp J
+                &kp K &kp L &kp M &kp N
+                &trans &trans &trans
+            >;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+        };
+        layer_3 {
+            display-name = "Base";
+            bindings = <
+                &kp A &kp B &kp C
+                &kp D &kp E &kp F &kp G
+                &kp H &kp I &kp J
+                &kp K &kp L &kp M &kp N
+                &bootloader &studio_unlock &trans
+            >;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+        };
+        
     };
 };
